@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--首页菜单的数组-->
+    <string-array name="menus">
+        <item>home_settings</item>
+        <item>home_bluetooth</item>
+        <item>home_music</item>
+        <item>home_calendar</item>
+        <item>home_radio</item>
+        <item>home_navigation</item>
+    </string-array>
+<!--
+    &lt;!&ndash;设置&ndash;&gt;
+    <string-array name="settings">
+        <item>home_settings</item>
+    </string-array>
+
+    &lt;!&ndash;蓝牙&ndash;&gt;
+    <string-array name="bluetooth">
+        <item>home_bluetooth</item>
+    </string-array>
+
+    &lt;!&ndash;音乐&ndash;&gt;
+    <string-array name="music">
+        <item>home_music</item>
+    </string-array>
+
+    &lt;!&ndash;日历&ndash;&gt;
+    <string-array name="calendar">
+        <item>home_calendar</item>
+    </string-array>
+
+    &lt;!&ndash;导航&ndash;&gt;
+    <string-array name="navigation">
+        <item>home_navigation</item>
+    </string-array>
+
+    &lt;!&ndash;收音机&ndash;&gt;
+    <string-array name="radio">
+        <item>home_radio</item>
+    </string-array>-->
+
+</resources>

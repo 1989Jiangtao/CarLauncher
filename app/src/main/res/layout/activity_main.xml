@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parentPanel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@mipmap/home_bg"
+    android:orientation="vertical"
+    tools:context="com.cjt.carlauncher.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/menu_layout"
+        android:orientation="horizontal"
+        android:padding="30px">
+
+        <com.cjt.carlauncher.view.MyClockView
+            android:id="@+id/my_clock"
+            android:layout_width="0px"
+            android:layout_margin="20px"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <View
+            android:layout_width="120px"
+            android:layout_height="match_parent"/>
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="0px"
+            android:layout_margin="10px"
+            android:layout_height="match_parent"
+            android:layout_weight="2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menu_layout"
+        android:layout_width="match_parent"
+        android:layout_height="160px"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="200px"
+        android:layout_marginRight="200px"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10px">
+
+        <!--        <android.support.v7.widget.RecyclerView
+                    android:visibility="gone"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/menu_recycle_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>-->
+
+    </LinearLayout>
+
+</RelativeLayout>
